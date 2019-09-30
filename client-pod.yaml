@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: yoshiki1116/multi-client
+      image: yoshiki1116/multi-worker
       ports:
         - containerPort: 3000
